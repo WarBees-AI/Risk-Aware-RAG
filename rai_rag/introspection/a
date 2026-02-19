@@ -1,1 +1,14 @@
+from rai_rag.introspection.planner import make_trace
+from rai_rag.introspection.formatter import format_trace
+from rai_rag.introspection.validators import validate_introspection_output
+from rai_rag.introspection.trace import parse_introspection_trace
+
+plan = make_trace("Explain RAI-RAG retrieval gating.")
+text = format_trace(plan)
+
+val = validate_introspection_output(text)
+val.raise_if_failed()
+
+trace = parse_introspection_trace(text)
+print(trace.ir_json)
 
