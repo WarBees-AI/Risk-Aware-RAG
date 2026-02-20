@@ -252,20 +252,20 @@ rai_rag/
    └─ test_simcts.py
 ```
 
-## Organization & Contact
-
-**WarBees-AI** builds secure, intelligent, and trustworthy AI systems for real-world deployment, with a focus on edge-AI safety and security platforms for emerging markets.
-
-- 🌐 Website: https://warbees-ai.github.io/
-- 📧 Contact: warbeesai@outlook.com
-- 📍 Location: China
-
-For pilot deployments, research collaboration, or enterprise partnerships, please contact us via email.
+##  Author
+**[Miraj Rahman](https://github.com/Miraj-Rahman-AI)**  
+AI Researcher | Autonomous Agents | RAG Systems | Trustworthy AI
 
 
-## Legal Notice
 
-**© 2026 WarBees-AI. All rights reserved.**
+##  Support
+If this project supports your research or learning,
+please consider giving it a ⭐ on GitHub.
 
-This repository and its contents are proprietary and confidential.  
-Unauthorized copying, modification, distribution, or use of this code, in whole or in part, is strictly prohibited without prior written permission from WarBees-AI.
+## ⚠️ License & Usage Restriction
+© 2026 Fantasy Tech Developer. All rights reserved.
+
+No permission is granted to use, modify, distribute, or reproduce this software in any form.
+
+This repository is provided for **viewing purposes only**.
+
