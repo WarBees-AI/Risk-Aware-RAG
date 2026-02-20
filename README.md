@@ -36,8 +36,11 @@ It extends **introspective reasoning, safety-dominant search, and meta-learning*
   - Clean separation between reasoning, retrieval, safety, and learning
 
 ## High-Level Architecture
+<p align="center">
+  <img src="assets/RAI-RAG Architecture.png" width="95%">
+</p>
 
-RAI-RAG is a **safety-first Retrieval-Augmented Generation (RAG)** system that makes *evidence access* an explicit, auditable, and optimizable part of alignment. Unlike standard RAG pipelines that perform retrieval unconditionally, RAI-RAG treats retrieval as a **safety-critical action** that must be justified by **structured introspective reasoning** before any external knowledge is fetched or used. At a high level, RAI-RAG decomposes end-to-end generation into **five stages** with clear interfaces, enabling modular research (swap retrievers/judges/search) while maintaining a consistent safety contract across the entire pipeline.
+RAI-RAG introduces a **safety-first RAG pipeline** where retrieval becomes an auditable, optimizable decision governed by structured introspection and safety policies. RAI-RAG is a **safety-first Retrieval-Augmented Generation (RAG)** system that makes *evidence access* an explicit, auditable, and optimizable part of alignment. Unlike standard RAG pipelines that perform retrieval unconditionally, RAI-RAG treats retrieval as a **safety-critical action** that must be justified by **structured introspective reasoning** before any external knowledge is fetched or used. At a high level, RAI-RAG decomposes end-to-end generation into **five stages** with clear interfaces, enabling modular research (swap retrievers/judges/search) while maintaining a consistent safety contract across the entire pipeline.
 
 ### 1) User Prompt Ingestion
 **Input:** user prompt `x`  
@@ -251,6 +254,19 @@ rai_rag/
    ├─ test_doc_filter.py
    └─ test_simcts.py
 ```
+
+## Installation
+
+### Clone repo
+```bash
+git clone https://github.com/WarBees-AI/Risk-Aware-RAG/.git
+cd rai-rag
+```
+### Install locally
+```
+pip install -e .
+```
+
 
 ##  Author
 **[Miraj Rahman](https://github.com/Miraj-Rahman-AI)**  
