@@ -279,7 +279,7 @@ If this project supports your research or learning,
 please consider giving it a ⭐ on GitHub.
 
 ## ⚠️ License & Usage Restriction
-© 2026 Fantasy Tech Developer. All rights reserved.
+© 2026 Mirage-AI. All rights reserved.
 
 No permission is granted to use, modify, distribute, or reproduce this software in any form.
 
